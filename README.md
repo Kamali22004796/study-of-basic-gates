@@ -68,6 +68,19 @@ Program for logic gates and verify its truth table in quartus using Verilog prog
 
  Developed by: RegisterNumber: 212222110015
 
+```
+input a,b;
+output andgate,orgate,notgate,nandgate,norgate,xorgate,xnorgate;
+and(andgate,a,b);
+or(orgate,a,b);
+not(notgate,a);// type code for NOT Gate
+nand(nandgate,a,b);
+nor(norgate,a,b);
+xor(xorgate,a,b);// type code for XOR Gate
+xnor(xnorgate,a,b);// type code for XNOR Gate
+endmodule
+```
+
  **Program**
 
  
